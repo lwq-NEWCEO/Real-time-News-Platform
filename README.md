@@ -66,7 +66,7 @@ npm start
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/5075662e-9204-402b-8a99-eec3bd26cf70" />
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/772d9f87-7026-465c-a5bf-e5fc8ca8a841" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/772d9f87-7026-465c-a5bf-e5fc8ca8a841" />
 
 
 
@@ -76,6 +76,7 @@ npm start
 点击可以直接链接到相关网页,
 比如我点击第一个可以直接跳转到BBC的网页
 <img width="800" height="280" alt="image" src="https://github.com/user-attachments/assets/bae23eda-ab1e-43f8-bd5e-d7145a20e455" />
+
 
 
 
