@@ -1,4 +1,4 @@
-# Real-time-News-Platform
+# 🚀Real-time-News-Platform
 This project is to create a front-end screening web page and a large model based on a knowledge base, aiming to provide a dual-selection platform for college students and teachers in the scientific research field. Currently, the complete front-end code and large model code are available.
 
 ## ECNU web编程大作业（90+）⭐
@@ -78,6 +78,7 @@ npm start
 点击可以直接链接到相关网页,
 比如我点击第一个可以直接跳转到BBC的网页
 <img width="800" height="280" alt="image" src="https://github.com/user-attachments/assets/bae23eda-ab1e-43f8-bd5e-d7145a20e455" />
+
 
 
 
