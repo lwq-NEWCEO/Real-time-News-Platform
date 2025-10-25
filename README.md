@@ -42,7 +42,8 @@ cd C:\Users\10235\LWQ\10235501417_罗文琦_项目代码\news-analysis-platform_
 npm run start
 ```
 即可启动后端运行
-<img width="471" height="253" alt="image" src="https://github.com/user-attachments/assets/f6ff7477-38d5-48f2-b570-78194c02d4a4" />
+
+<img width="600" height="253" alt="image" src="https://github.com/user-attachments/assets/f6ff7477-38d5-48f2-b570-78194c02d4a4" />
 
 启动后端之后，启动前端：
 ```
@@ -51,28 +52,30 @@ cd frontend
 npm start
 ```
 即可启动前端...
-<img width="480" height="214" alt="image" src="https://github.com/user-attachments/assets/6760728c-8f1d-42dc-8967-13ed49b8f4e5" />
+
+<img width="600" height="214" alt="image" src="https://github.com/user-attachments/assets/6760728c-8f1d-42dc-8967-13ed49b8f4e5" />
 
 我的界面设置分为深色系和浅色系（深色系晚上看护眼，浅色系白天看清晰）
 
 
-<img width="510" height="259" alt="image" src="https://github.com/user-attachments/assets/9e249299-4984-4129-bcc8-c511f1e5bee0" />
+<img width="600" height="259" alt="image" src="https://github.com/user-attachments/assets/9e249299-4984-4129-bcc8-c511f1e5bee0" />
 
-<img width="512" height="137" alt="image" src="https://github.com/user-attachments/assets/79ec8709-d3b0-4fea-b7d4-9d01eb29bafc" />
+<img width="600" height="137" alt="image" src="https://github.com/user-attachments/assets/79ec8709-d3b0-4fea-b7d4-9d01eb29bafc" />
 
-<img width="511" height="259" alt="image" src="https://github.com/user-attachments/assets/703a645c-b661-4164-b17d-eed1b76d052f" />
+<img width="600" height="259" alt="image" src="https://github.com/user-attachments/assets/703a645c-b661-4164-b17d-eed1b76d052f" />
 
-<img width="527" height="267" alt="image" src="https://github.com/user-attachments/assets/5075662e-9204-402b-8a99-eec3bd26cf70" />
+<img width="600" height="267" alt="image" src="https://github.com/user-attachments/assets/5075662e-9204-402b-8a99-eec3bd26cf70" />
 
-<img width="443" height="311" alt="image" src="https://github.com/user-attachments/assets/772d9f87-7026-465c-a5bf-e5fc8ca8a841" />
+<img width="600" height="311" alt="image" src="https://github.com/user-attachments/assets/772d9f87-7026-465c-a5bf-e5fc8ca8a841" />
 
 
 
 并且词云图中的单词是可以点击并同步切换关键词的！！这个要留到我的视频中进行讲解啦
-<img width="511" height="280" alt="image" src="https://github.com/user-attachments/assets/f0758fc0-b8df-4e92-adf5-1f685e8bdb5c" />
+<img width="600" height="280" alt="image" src="https://github.com/user-attachments/assets/f0758fc0-b8df-4e92-adf5-1f685e8bdb5c" />
 
 点击可以直接链接到相关网页,
 比如我点击第一个可以直接跳转到BBC的网页
-<img width="522" height="179" alt="image" src="https://github.com/user-attachments/assets/bae23eda-ab1e-43f8-bd5e-d7145a20e455" />
+<img width="600" height="179" alt="image" src="https://github.com/user-attachments/assets/bae23eda-ab1e-43f8-bd5e-d7145a20e455" />
+
 
 
