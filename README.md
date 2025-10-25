@@ -1,4 +1,4 @@
-<img width="527" height="267" alt="image" src="https://github.com/user-attachments/assets/76cc0706-7318-4f60-8313-5219ee9a0afd" /><img width="512" height="137" alt="image" src="https://github.com/user-attachments/assets/1d3b7ae9-6b97-4425-b5a3-80a3d6061cdf" /># Real-time-News-Platform
+# Real-time-News-Platform
 This project is to create a front-end screening web page and a large model based on a knowledge base, aiming to provide a dual-selection platform for college students and teachers in the scientific research field. Currently, the complete front-end code and large model code are available.
 
 在信息爆炸的时代，新闻媒体每天产生海量的内容，用户往往难以快速把握舆论动态和热点话题的演变趋势。基于此，我萌生了一个想法：开发一个实时新闻爬取和统计分析平台，利用现代化的Web技术实现前后端交互，帮助用户更高效地理解新闻背后的故事。我选择以React和JavaScript为核心框架，希望通过这个项目，既能解决实际问题，又能深入实践全栈开发的完整流程。
@@ -55,6 +55,7 @@ npm start
 
 我的界面设置分为深色系和浅色系（深色系晚上看护眼，浅色系白天看清晰）
 
+
 <img width="510" height="259" alt="image" src="https://github.com/user-attachments/assets/9e249299-4984-4129-bcc8-c511f1e5bee0" />
 
 <img width="512" height="137" alt="image" src="https://github.com/user-attachments/assets/79ec8709-d3b0-4fea-b7d4-9d01eb29bafc" />
@@ -73,4 +74,5 @@ npm start
 点击可以直接链接到相关网页,
 比如我点击第一个可以直接跳转到BBC的网页
 <img width="522" height="179" alt="image" src="https://github.com/user-attachments/assets/bae23eda-ab1e-43f8-bd5e-d7145a20e455" />
+
 
