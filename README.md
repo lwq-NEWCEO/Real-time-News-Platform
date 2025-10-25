@@ -1,6 +1,8 @@
 # Real-time-News-Platform
 This project is to create a front-end screening web page and a large model based on a knowledge base, aiming to provide a dual-selection platform for college students and teachers in the scientific research field. Currently, the complete front-end code and large model code are available.
 
+## ECNU web编程大作业（90+）跟大家分享一下，如果觉得还不错可以点个star哦~
+
 在信息爆炸的时代，新闻媒体每天产生海量的内容，用户往往难以快速把握舆论动态和热点话题的演变趋势。基于此，我萌生了一个想法：开发一个实时新闻爬取和统计分析平台，利用现代化的Web技术实现前后端交互，帮助用户更高效地理解新闻背后的故事。我选择以React和JavaScript为核心框架，希望通过这个项目，既能解决实际问题，又能深入实践全栈开发的完整流程。
 
 ## 本项目采用前后端分离的架构设计，确保开发的高效性与模块化：
@@ -76,6 +78,7 @@ npm start
 点击可以直接链接到相关网页,
 比如我点击第一个可以直接跳转到BBC的网页
 <img width="800" height="280" alt="image" src="https://github.com/user-attachments/assets/bae23eda-ab1e-43f8-bd5e-d7145a20e455" />
+
 
 
 
