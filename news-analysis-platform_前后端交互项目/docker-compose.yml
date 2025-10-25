@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "7897:7897" # 映射主机端口 7897 到容器端口 7897
+    environment:
+      - NODE_ENV=production
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_USER=postgres
+      - DB_PASSWORD=your_secure_password
+      - DB_NAME=news_db
+      - NEWS_API_KEY=bd6edace08ad49c0a89fded240f290b3
+      - PORT=7897
+    depends_on:
+      - db
+    networks:
+      - app-network
+    # 如果 7897 是代理端口，取消注释以下行并调整
+    # extra_hosts:
+    #   - "host.docker.internal:host-gateway"
+    # environment:
+    #   - HTTP_PROXY=http://host.docker.internal:7897
+    #   - HTTPS_PROXY=http://host.docker.internal:7897
+
+  db:
+    image: postgres:14
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=your_secure_password
+      - POSTGRES_DB=news_db
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - ./database/seed.sql:/docker-entrypoint-initdb.d/seed.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  db-data:

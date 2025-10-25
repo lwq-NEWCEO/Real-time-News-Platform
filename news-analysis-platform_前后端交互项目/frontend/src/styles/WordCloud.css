@@ -1,0 +1,39 @@
+/* 容器样式 */
+.wordcloud-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+/* 标题样式 */
+.wordcloud-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* 加载状态 */
+.wordcloud-loading {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+/* 词云文字样式（react-d3-cloud 会给每个文字添加该类名） */
+.wordcloud-word {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.wordcloud-word:hover {
+  transform: scale(1.1);
+}

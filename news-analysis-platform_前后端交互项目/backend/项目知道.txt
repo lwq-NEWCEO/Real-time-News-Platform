@@ -1,0 +1,27 @@
+psql -U ABCD -d news_db
+CREATE ROLE ABCD WITH LOGIN PASSWORD '87654321' CREATEDB;
+GRANT ALL PRIVILEGES ON DATABASE news_db TO ABCD;
+\q
+psql -U ABCD -d news_db
+
+cd C:\Users\10235\LWQ\news-analysis-platform\backend
+npm init -y
+npm install express pg dotenv cors
+
+cd C:\Users\10235\LWQ\news-analysis-platform\frontend
+打开 frontend/package.json，在 scripts 中添加：
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "dev": "react-scripts start"  // 新增这一行
+}
+
+npm run dev
+
+# 进入后端目录
+cd C:\Users\10235\LWQ\news-analysis-platform\backend
+
+# 启动后端
+node server.js
